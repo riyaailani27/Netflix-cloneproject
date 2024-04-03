@@ -1,0 +1,40 @@
+Netflix Clone
+
+1. Create an assets folder with images and videos present on the Netflix website- download these images and videos in the respective folder
+2. Create and index.html and an external style.css files- link the external css file to the html file
+
+Styles used
+background-image: url("assets/img/bg.jpg");
+-> this applies the background image of the website using the provided url
+
+->height: 80vh; // this applies the height of the div declared till which the background image needs to displayed, this can change overtime while creating the website. the values of this can be 80vh, 100px, 50%
+
+->width:100%; //this applies the width in of the div this can change overtime while creating the website. the values of this can be 80vw, 100px, 50%
+
+->opacity: 0.44;
+Opacity is the degree to which content behind an element is hidden, and is the opposite of transparency. The value of opacity is between 0 to 1.
+
+->An element with position: relative; is positioned relative to its normal position.
+Setting the top, right, bottom, and left properties of a relatively-positioned element will cause it to be adjusted away from its normal position. Other content will not be adjusted to fit into any gap left by the element.
+
+->An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed).
+However; if an absolute positioned element has no positioned ancestors, it uses the document body, and moves along with page scrolling.
+
+->The display: flex property enables the flexbox layout mode, allowing you to manipulate elements' alignment, spacing, and order within a container.
+
+->What is the difference between justify and align in CSS?
+justify-content is set on the container and distributes the elements along the main axis (for flex-direction:row , that is the horizontal axis) align-items is also set on the container and distributes the elements along the cross axis (for flex-direction:row , that is the vertical axis)
+
+->Max-width defines the maximum width of an element. The element can get narrower if the viewport gets narrower but it won't exceed the max-width value. On the other hand, Width in % will make the element infinitely stretchable, and Width in px will make it non-responsive.
+
+->In CSS, a margin is the space around an element's border, while padding is the space between an element's border and the element's content. Put another way, the margin property controls the space outside an element, and the padding property controls the space inside an element
+
+->The background-position:center center; property sets the starting position of a background image.
+Tip: By default, a background-image is placed at the top-left corner of an element, and repeated both vertically and horizontally.The first value is the horizontal position and the second value is the vertical.
+
+->The background-size property specifies the size of the background images.
+There are four different syntaxes you can use with this property: the keyword syntax ("auto", "cover" and "contain"), the one-value syntax (sets the width of the image (height becomes "auto")), the two-value syntax (first value: width of the image, second value: height), and the multiple background syntax (separated with comma)
+
+->What is Z indexing in CSS?
+The CSS z-index Property: What You Need to Know
+z-index is the CSS property that controls the stacking order of overlapping elements on a page. An element with a higher z-index value will appear in front of an element with a lower z-index value. The property is called “z-index” because it sets the order of elements along the z-axis
